@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="javascript.js"></script>
+</head>
+<body>
+	<h1 style="margin:auto;text-align: center; background-color: white">TIC TAC TOE</h1>
+	<div id="playerturn"> Player X Turn</div>
+	<div id="box">
+		<button class="buttons" id="1" onclick="compare(1)">&nbsp;</button>
+		<button class="buttons" id="2" onclick="compare(2)">&nbsp;</button>
+		<button class="buttons" id="3" onclick="compare(3)">&nbsp;</button>
+
+		<div style="margin-top: 2px" >
+		<button class="buttons" id="4" onclick="compare(4)">&nbsp;</button>
+		<button class="buttons" id="5" onclick="compare(5)">&nbsp;</button>
+		<button class="buttons" id="6" onclick="compare(6)">&nbsp;</button>
+		</div>
+
+		<div style="margin-top: 2px">
+		<button class="buttons" id="7" onclick="compare(7)">&nbsp;</button>
+		<button class="buttons" id="8" onclick="compare(8)">&nbsp;</button>
+		<button class="buttons" id="9" onclick="compare(9)">&nbsp;</button>
+		</div>
+
+	</div>
+	<div id="winner">
+		
+	</div>
+	<div style="margin:auto; text-align: center;"><button id='playgain' onclick="playagain()">Play Again</button></div>
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+	background-color: violet;
+}
+#box{
+	width:308px;
+	height:300px;
+	background-color: black;
+	margin:auto;
+	border:none;
+}
+
+.buttons{
+	width:100px;
+	height: 100px;
+	background-color: violet;
+	outline: none;
+	border:none;
+	font-size: 80px;
+	color:black;
+	text-shadow: 2px 5px 5px black;
+}
+
+#playerturn{
+	margin: auto;
+	width: 300px;
+	height: 100px;
+	text-shadow: 2px 2px 5px black;
+	font-size: 40px;
+	font-family: monospace;
+}
+#winner{
+	margin: auto;
+	width: 300px;
+	height: 100px;
+	text-shadow: 2px 2px 5px black;
+	font-size: 40px;
+	font-family: monospace;
+	color:red;
+	font-size: 40px;
+}
+
+#playgain{
+	width:200px;
+	height: 50px;
+	outline: none;
+	border:none;
+	font-size: 20px;
+	color:black;
+	margin: auto;
+}
+#playgain:hover{
+	background-color: black;
+	color:white;
+}
